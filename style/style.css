@@ -1,0 +1,58 @@
+.nav-link{
+    color: rgb(173, 173, 173);
+}
+
+.navbar .nav-link.active{
+    color: white;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.formContenedor{
+    padding: 10px;
+    background-color: #dc0505;
+    border-radius: 10px;
+}
+
+.formContenedor h3{
+    color: white;
+    font-weight: bold;
+}
+
+.mb-3 label{
+    color: white;
+}
+
+.tarjetitas{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.footer{
+    margin-top: 5%;
+}
+
+@media (max-width: 768px) { /* Pantallas medianas y pequeñas */
+    .carousel-inner img {
+        height: 300px; /* Ajusta la altura para pantallas más pequeñas */
+        object-fit: cover; /* Esto asegura que la imagen se recorte proporcionalmente */
+    }
+
+    .card img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 769px) { /* Pantallas más grandes */
+    .carousel-inner img {
+        height: 500px; /* Ajusta la altura para pantallas más grandes */
+    }
+
+    .card img{
+        width: auto;
+        height: 300px;
+    }
+}
